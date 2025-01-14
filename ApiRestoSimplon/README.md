@@ -3,7 +3,7 @@
 ### Notre client, un restaurant, souhaite digitaliser la gestion de ses commandes.
 ### Pour répondre à son besoin, nous avons développé une API permettant de simplifier et automatiser la gestion des articles du menu, des clients et des commandes.
 
-####  <span style="color: #26B260">Pour accéder au programme vous aurez besoin de :</span> </br></br> • Visual Studio, ou équivalent <br> • créer un projet ASP.NET Core vide </br> • installer les NuGet nécessaires :</br> <span style="color: #ea7e27">Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore, Microsoft.EntityFrameworkCore.Design, Microsoft.EntityFrameworkCore.Sqlite, Microsoft.EntityFrameworkCore.Tools</span></br> • copier/coller notre code dans votre fichier 
+#### Pour accéder au programme vous aurez besoin de : </br></br>• Visual Studio, ou équivalent <br> • créer un projet ASP.NET Core vide </br> • installer les NuGet nécessaires :</br> Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore,<br> Microsoft.EntityFrameworkCore.Design, Microsoft.EntityFrameworkCore.Sqlite</br>, Microsoft.EntityFrameworkCore.Tools</span></br> • copier/coller notre code dans votre fichier 
 
 Dans notre code vous trouverez nos classes, méthodes et routes.
 
@@ -65,7 +65,7 @@ L'API sera accessible à l'adresse `http://localhost:5000`.
 La base de données utilisée dans l'API RestoSimplon est SQLite. Elle est configurée dans le fichier `Program.cs` en utilisant Entity Framework Core.
 
 ### Configuration dans `Program.cs`
-![ConfigProgram](/Images/Configuration_Program.PNG)
+![ConfigProgram](./Images/Configuration_Program.PNG)
 
 ## Initialisation de la Base de Données
 L'initialisation de la base de données est effectuée dans le fichier `DbInitializer.cs`. Ce fichier contient la logique pour charger et insérer des données de test à partir de fichiers JSON.

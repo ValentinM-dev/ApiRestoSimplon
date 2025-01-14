@@ -74,7 +74,7 @@ L'initialisation de la base de données est effectuée dans le fichier `DbInitia
 Les routes de l'API permettent de gérer les entités de la base de données (Articles, Commandes, Clients, Catégories) via des opérations CRUD (Create, Read, Update, Delete).
 
 ### Exemple de Routes pour les Articles
-![ArticleExemple](./Images/Exemple_Routes.PNG)
+![ArticleExemple](./Images/Exemple_Route.PNG)
 
 
 
